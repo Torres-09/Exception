@@ -16,4 +16,9 @@ public class TestController {
     public void test2() {
         throw new IllegalStateException();
     }
+
+    @GetMapping("/test3")
+    public void test3() {
+        throw new IllegalAccessError();
+    }
 }

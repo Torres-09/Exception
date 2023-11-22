@@ -4,11 +4,11 @@
 
 - 따라서 별도의 어떠한 예외처리를 하지 않더라도 예외가 발생한다면 다음과 같은 응답을 얻을 수 있다.
 
-![img.png](img.png)
+![img.png](../images/img.png)
 
 - 그 이유는 Spring framework에서 인터페이스로 제공하는 `ErrorAttributes` 인터페이스를 Spring Boot에서 `DefaultErrorAttributes` 구현하여 제공하기 때문이다.
 
-![img_1.png](img_1.png)
+![img_1.png](../images/img_1.png)
 
 - 구현 클래스에서는 기본적으로 다음과 같은 속성들을 보유하고 제공할 수 있는 것으로 보인다.
 

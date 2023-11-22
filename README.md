@@ -14,4 +14,4 @@ Spring Boot와 Spring framework의 MVC 예외처리.
 - 별도의 설정이 없다면 모든 예외처리는 다음과 같이 이루어진다.
 
 ## [ErrorAttributes](docs/CustomErrorAttributes.md)
-- Spring Boot에서 DefaultErrorAttributes를 상속받 CustomErrorAttributes로 반환
+- Spring Boot에서 기본적인 예외에 대한 응답 모델을 제공한다.

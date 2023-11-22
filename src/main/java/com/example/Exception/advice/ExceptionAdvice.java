@@ -1,4 +1,4 @@
-package com.example.Exception.controller;
+package com.example.Exception.advice;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

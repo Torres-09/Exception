@@ -61,7 +61,7 @@
 
 - 추상 클래스인 `AbstractHandlerExceptionResolver`에서 인터페이스를 구현하여 메서드를 오버라이드한다. 내용을 간단히 살펴보자.
 - `shouldApplyTo(request, handler)`를 통해서 `handler`를 `request`에 적용할 수 있는 지 판단하여 로직을 수행한다.
-- `			prepareResponse(ex, response)`에서 `response`의 헤더에 예외에 대한 내용을 추가한다.
+- `prepareResponse(ex, response)`에서 `response`의 헤더에 예외에 대한 내용을 추가한다.
 - 이제 반환하기에 적절한 형태로 `ModelAndView` 객체를 생성하고 return 해준다.
 - 해당 메서드는 전역 Controller인 DispatcherServlet에서 호출되어 실행된다.
 - 각 `Resolver`에서 `doResolveException`을 오버라이드하여 상이하게 구현되는 부분이 존재한다.

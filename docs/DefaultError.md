@@ -1,4 +1,4 @@
-# Default Error in SpringBoot
+# Default Exception Handle in SpringBoot
 
 - Spring Boot에서는 발생하는 예외에 대하여 적절한 방식으로 처리하여 /error로 매핑하는 전역 오류 페이지를 제공한다.
 

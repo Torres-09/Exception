@@ -1,6 +1,6 @@
 # HandlerExceptionResolver
 
-Spring framework에서는 Controller에서 예외가 발생하는 경우 DispatcherServlet에 위임하 HandlerExceptionResolver 이용하여 예외처리를 할 수 있다. ( 응답 혹은
+- Spring framework에서는 Controller에서 예외가 발생하는 경우 DispatcherServlet에 위임하 HandlerExceptionResolver 이용하여 예외처리를 할 수 있다. ( 응답 혹은
 해결 )
 
 | HandlerExceptionResolver            | 설명                                                                                                                |
@@ -90,8 +90,3 @@ public class Advice3 {}
 
 ![img_4.png](img_4.png)
 ![img_5.png](img_5.png)
-
-## Resolver가 예외를 처리하는 방식
-
-- 해당 내용은 별도의 글로 소개
-- [Resolver에서 예외를 처리하는 방식](/docs/ResolveException.md)

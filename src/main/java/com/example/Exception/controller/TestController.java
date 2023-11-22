@@ -31,6 +31,11 @@ public class TestController {
         throw new IOException();
     }
 
+    @GetMapping("/test5")
+    public void test5() {
+        throw new IllegalCallerException();
+    }
+
     @ExceptionHandler
     public ResponseEntity<String> handle(IOException e) {
         return ResponseEntity.ok(e.toString());

@@ -50,8 +50,8 @@ public class ExceptionHandlerExceptionResolverController {
 - Controller에 ExceptionHandler를 사용하여 발생할 예외에 대해 예외처리를 할 수 있다.
 - 예외 목록을 정의하여 처리 대상인 예외 목록을 좁힐 수 있다. 하위 예외의 경우에 정의된 예외 처리가 우선적으로 적용된다.
 
-![img_3.png](img_3.png)
-![img_2.png](img_2.png)
+![img_3.png](../images/img_3.png)
+![img_2.png](../images/img_2.png)
 
 ## Exception with ExceptionHandlerExceptionResolver & ControllerAdvice or RestControllerAdvice
 
@@ -88,5 +88,5 @@ public class Advice2 {}
 public class Advice3 {}
 ```
 
-![img_4.png](img_4.png)
-![img_5.png](img_5.png)
+![img_4.png](../images/img_4.png)
+![img_5.png](../images/img_5.png)
